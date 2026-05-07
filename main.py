@@ -1,20 +1,19 @@
 # ============================================================
 # Python Final Project 2026
-# Name: 
-# Date: 
-# Project Title: 
+# Name: Dash Diggs
+# Date: 5/7/26
+# Project Title: Python Final Project 2026
 # Description: (Write 1-2 sentences explaining what your program does)
 # ============================================================
 
 
 # ---- SECTION 1: Setup / Variables ----
-# Create your starting variables here.
-# Example: player_name = ""
+playerName = input("What is your name?: ")
 
 
 
 # ---- SECTION 2: Welcome Message ----
-# Greet the user and explain what your program does.
+print(f"Hello,", playerName)
 
 print("Welcome!")
 print("----------------------------")
@@ -22,26 +21,24 @@ print("----------------------------")
 
 
 # ---- SECTION 3: Get Input from User ----
-# Use input() to ask the user for information.
-# Remember: input() always returns a string.
-# Use int() or float() if you need a number.
+race = input("What is your race?: ")
+age = int(input("How old are you?: "))
+year = float(input("What year is it?: "))
 
-# Example:
-# player_name = input("What is your name? ")
-# score = int(input("Enter a number: "))
 
 
 
 # ---- SECTION 4: Logic (if / elif / else) ----
 # Use if/elif/else to make decisions based on user input or variables.
 
-# Example:
-# if score >= 90:
-#     print("Great job!")
-# elif score >= 70:
-#     print("Good work!")
-# else:
-#     print("Keep practicing!")
+if race == "Goblin":
+    print("You stupid green skin")
+elif race ==  "Dragonborn":
+    print("You're the best race")
+else:
+    print("I hope you die")
+if age >= 26:
+    print("Damn you old")
 
 
 
